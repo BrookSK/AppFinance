@@ -1,0 +1,19 @@
+src/: Esta pasta pode conter o código-fonte do seu aplicativo PHP, como controllers, models, views, e outras classes ou componentes customizados.
+
+src/Controllers/: Aqui você pode armazenar os controladores (controllers) do seu projeto, que são responsáveis por receber as requisições HTTP e coordenar as ações a serem executadas.
+
+src/Models/: Nesta pasta, você pode definir as classes de modelos (models) que representam os dados e a lógica de negócios do seu aplicativo.
+
+src/Views/: Aqui você pode colocar os arquivos de visualização (views), que são responsáveis pela apresentação dos dados aos usuários.
+
+src/Routes/: Nesta pasta, você pode definir as rotas (routes) do seu aplicativo, mapeando as URLs para os respectivos controladores e ações a serem executadas.
+
+public/: Esta pasta é acessível publicamente e contém os recursos estáticos do seu projeto, como arquivos CSS, JavaScript, imagens, etc.
+
+public/css/ e public/js/: Nestas pastas, você pode colocar os arquivos CSS e JavaScript do seu projeto.
+
+public/index.php: Este é o ponto de entrada do seu aplicativo, onde todas as requisições serão direcionadas. Aqui você pode carregar o arquivo de autoload do Composer e iniciar o roteamento.
+
+vendor/: Esta pasta é criada pelo Composer e contém as dependências do seu projeto.
+
+composer.json e composer.lock: Esses arquivos são usados pelo Composer para gerenciar as dependências do seu projeto.
