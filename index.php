@@ -13,7 +13,7 @@ function view($template, $data = [])
 // Exemplo de roteamento com o CoffeeCode Router
 use CoffeeCode\Router\Router;
 
-$router = new Router('http://localhost/Projeto_GerenciamentoFinanceiro');
+$router = new Router('https://brooksk.github.io/AppFinance');
 
 // Defina suas rotas aqui
 $router->namespace("App\Controllers");
