@@ -1,10 +1,10 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 // Aqui você pode adicionar qualquer código adicional necessário para configurar seu aplicativo
 function view($template, $data = [])
 {
-    $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/../src/Views');
+    $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/src/Views');
     $twig = new \Twig\Environment($loader);
     return $twig->render($template, $data);
 }
