@@ -1,10 +1,10 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 // Aqui você pode adicionar qualquer código adicional necessário para configurar seu aplicativo
 function view($template, $data = [])
 {
-    $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/../src/Views');
+    $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/src/Views');
     $twig = new \Twig\Environment($loader);
     return $twig->render($template, $data);
 }
@@ -12,7 +12,7 @@ function view($template, $data = [])
 // Exemplo de roteamento com o CoffeeCode Router
 use CoffeeCode\Router\Router;
 
-$router = new Router('https://brooksk.github.io/AppFinance');
+$router = new Router('http://localhost/AppFinance');
 
 // Defina suas rotas aqui
 $router->namespace("App\Controllers");
